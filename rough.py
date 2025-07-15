@@ -1,12 +1,11 @@
-x=121
-def pal(x):
-    y = str(x)[::-1]
-    if int(x) == int(y):
-        return True
-    else:
-        return False
+# arr=[1,2,3,4,5]
+# for i in range(len(arr)):
+#     print('i am i:',i)
+#     for j in range(i+1,len(arr)):
+#         print('i am j:',j)
 
-if pal(x) != True:
-    print('not pal')
-else:
-    print('pal')
+
+print(help(list.sort))
+x=121
+y=str(x)[::-1]
+print(x==int(y))
