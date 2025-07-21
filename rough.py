@@ -1,6 +1,5 @@
-s='iamtarak'
-def reverseString(s):
-    for i in range(len(s)):
-        s.insert(i)=s.pop()
-    return s
-print(reverseString(s))
+def isIsomorphic(s, t):
+    ds, dt = {}, {}
+
+print(isIsomorphic('paper','title'))
+
