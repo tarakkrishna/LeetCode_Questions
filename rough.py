@@ -1,7 +1,13 @@
-x=[1,2,3]
-s=[]
-res=''.join(map(str,x))
-res=int(res)+1
-for i in str(res):
-    s.append(i)
-print(s)
+s='()[]'
+close=[')','}',']']
+dic={ ')': '(', '}': '{', ']': '[' }
+open=[]
+for i in s:
+    if i not in close:
+        open.append(i)
+for i in s:
+    if i==dic[i]:
+        open.remove(open[0])
+    else:
+        print('False')
+print('True')
