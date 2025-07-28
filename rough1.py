@@ -1,2 +1,5 @@
 s = "AeC"
-print(s.isupper())
+if 'a' == 'a':
+    print(True)
+else:
+    print(False)
